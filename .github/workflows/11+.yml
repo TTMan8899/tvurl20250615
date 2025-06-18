@@ -24,9 +24,9 @@ on:
 
 env:
   # 上游仓库用户名
-  UPSTREAM_USER: hd9211
+  UPSTREAM_USER: ne7359
   # 上游仓库名称
-  UPSTREAM_REPO: Tvbox1
+  UPSTREAM_REPO: tvurl
   # 待同步的本仓库分支
   BRANCH: main
   
