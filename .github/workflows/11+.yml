@@ -18,8 +18,8 @@ on:
     inputs:
       ENABLE_FORCE_SYNC_UPSTREAM:
         description: '强制从上游同步'
-        required: false
-        default: false
+        required: true
+        default: true
         type: boolean
 
 env:
