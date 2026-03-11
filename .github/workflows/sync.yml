@@ -125,7 +125,7 @@ jobs:
     - name: Push JS Config Changes To Gitee
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GE_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         repository: ${{ secrets.GE_PATH }}
         directory: .
         branch: master
